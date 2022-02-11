@@ -1,4 +1,31 @@
 #!/usr/bin/make -f
-%:
-	dh $@
+#export DH_VERBOSE = 1
+
+clean:
+	make clean
+
+build:
+	PREFIX=/usr make
+
+build-arch:
+	# nothing to do.
+	true
+
+build-indep:
+	# nothing to do.
+	true
+
+binary:
+	true
+
+binary-arch:
+	true
+
+binary-indep:
+	true
+
+get-orig-source:
+	git clone https://github.com/david-a-redick/beret.git
+
+
 
