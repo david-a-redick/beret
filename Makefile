@@ -44,8 +44,10 @@ debian-build:
 
 debian-clean: clean
 	rm -f ../beret_1.2.2*
+	rm -f ../beret-dbgsym*
 	rm -rf debian/.debhelper
 	rm -rf debian/beret
+	rm -f debian/beret.substvars
 
 %.o: %.c %.h
 
