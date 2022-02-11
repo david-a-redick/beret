@@ -7,6 +7,16 @@ Files: *
 Copyright: 2011 Nigel Kilmer <kiwisauce@kiwisauce.com>
 License: LGPL-3.0+
 
+Files: Makefile
+Copyright: 2022 David A. Redick <david.a.redick@member.fsf.org>
+ 2011 Nigel Kilmer <kiwisauce@kiwisauce.com>
+License: LGPL-3.0+
+
+Files: README.md
+Copyright: 2022 David A. Redick <david.a.redick@member.fsf.org>
+ 2011 Nigel Kilmer <kiwisauce@kiwisauce.com>
+License: LGPL-3.0+
+
 Files: debian/*
 Copyright: 2022 David A. Redick <david.a.redick@member.fsf.org>
 License: LGPL-3.0+

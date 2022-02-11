@@ -16,6 +16,8 @@ build-indep:
 	true
 
 binary:
+	ls -l /
+	pwd
 	true
 
 binary-arch:

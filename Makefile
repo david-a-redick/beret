@@ -29,9 +29,13 @@ clean:
 
 install: beret
 	install --mode=755 beret $(PREFIX)/bin
+	install -D --mode=644 beret.desktop $(PREFIX)/share/applications/beret.desktop
+	install -D --mode=644 beret.png $(PREFIX)/share/pixmaps/beret.png
 
 uninstall:
 	rm -f $(PREFIX)/bin/berete
+	rm -f $(PREFIX)/share/applications/beret.desktop
+	rm -f $(PREFIX)/share/pixmaps/beret.png
 
 %.o: %.c %.h
 

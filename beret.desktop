@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=beret
+GenericName=Puzzle Game
+Comment=A 2D puzzle-platformer game about a scientist with telekinetic abilities.
+Type=Application
+Exec=beret
+Icon=beret
+Categories=Game;PuzzleGame;
+
