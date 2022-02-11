@@ -30,6 +30,9 @@ clean:
 install: beret
 	install --mode=755 beret $(PREFIX)/bin
 
+uninstall:
+	rm -f $(PREFIX)/bin/berete
+
 %.o: %.c %.h
 
 beret: game.o physics.o thing.o
