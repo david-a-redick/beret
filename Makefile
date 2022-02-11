@@ -28,18 +28,23 @@ clean:
 	rm -f beret *.o
 
 install: beret
-	install -D --mode=755 beret $(PREFIX)/bin/beret
+	install -D --mode=755 beret $(PREFIX)/games/beret
 	install -D --mode=644 beret.6 $(PREFIX)/share/man/man6/beret.6
 	install -D --mode=644 beret.desktop $(PREFIX)/share/applications/beret.desktop
 	install -D --mode=644 beret.png $(PREFIX)/share/pixmaps/beret.png
 
 uninstall:
-	rm -f $(PREFIX)/bin/berete
+	rm -f $(PREFIX)/games/berete
 	rm -f $(PREFIX)/share/applications/beret.desktop
 	rm -f $(PREFIX)/share/pixmaps/beret.png
 
-do-debian:
+debian-build:
+	cd .. && tar -jcf beret_1.2.2.orig.tar.bz2 beret-1.2.2
 	debuild -us -uc
+
+debian-clean:
+	rm -rf debian/.debhelper
+	rm -rf debian/beret
 
 %.o: %.c %.h
 
