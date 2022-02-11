@@ -91,7 +91,7 @@
 #define RESOURCE_PATH STRINGIFY(PATH_TO_DATA)
 
 // $HOME/$SUPPORT_PATH is where saves and stuff go
-#define SUPPORT_PATH ".config/.beret/"
+#define SUPPORT_PATH ".config/beret/"
 
 #define QUITMOD_WIN KMOD_ALT
 #define QUITKEY_WIN SDLK_F4
