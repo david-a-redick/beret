@@ -38,6 +38,9 @@ uninstall:
 	rm -f $(PREFIX)/share/applications/beret.desktop
 	rm -f $(PREFIX)/share/pixmaps/beret.png
 
+do-debian:
+	debuild -us -uc
+
 %.o: %.c %.h
 
 beret: game.o physics.o thing.o

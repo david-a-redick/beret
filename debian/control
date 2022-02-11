@@ -8,7 +8,7 @@ Homepage: https://github.com/david-a-redick/beret
 
 Package: beret
 Architecture: any
-Depends: beret-data libsdl1.2debian libsdl-image1.2 libsdl-ttf2.0 libsdl-mixer1.2 fonts-averia-sans-gwf ${shlibs:Depends}, ${misc:Depends}
+Depends: beret-data, libsdl1.2debian, libsdl-image1.2, libsdl-ttf2.0, libsdl-mixer1.2, fonts-averia-sans-gwf
 Description: Beret is a 2D puzzle-platformer game about a scientist, astonishingly named Beret,
  who has gained telekinetic abilities through his research at the Evil Corporation.
  He decides that the Evil Corporation is a tad too evil for his liking, and begins
