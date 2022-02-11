@@ -1,30 +1,17 @@
 #!/usr/bin/make -f
 #export DH_VERBOSE = 1
 
+%:
+	dh $@
+
 clean:
-	make clean
+	$(MAKE) clean
 
 build:
-	PREFIX=/usr make
+	PREFIX=/usr $(MAKE)
 
-build-arch:
-	# nothing to do.
-	true
-
-build-indep:
-	# nothing to do.
-	true
-
-binary:
-	ls -l /
-	pwd
-	true
-
-binary-arch:
-	true
-
-binary-indep:
-	true
+override_dh_auto_install:
+	PREFIX=/usr $(MAKE) install
 
 get-orig-source:
 	git clone https://github.com/david-a-redick/beret.git
