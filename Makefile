@@ -28,7 +28,8 @@ clean:
 	rm -f beret *.o
 
 install: beret
-	install --mode=755 beret $(PREFIX)/bin
+	install -D --mode=755 beret $(PREFIX)/bin/beret
+	install -D --mode=644 beret.6 $(PREFIX)/share/man/man6/beret.6
 	install -D --mode=644 beret.desktop $(PREFIX)/share/applications/beret.desktop
 	install -D --mode=644 beret.png $(PREFIX)/share/pixmaps/beret.png
 
