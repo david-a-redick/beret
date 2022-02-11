@@ -14,7 +14,7 @@ default: beret
 echo:
 	@echo PREFIX=$(PREFIX)
 	@echo
-	@echo PATH_TO_DATA=$(RESOURCE_PATH)
+	@echo PATH_TO_DATA=$(PATH_TO_DATA)
 	@echo
 	@echo PATH_TO_FONT=$(PATH_TO_FONT)
 	@echo
