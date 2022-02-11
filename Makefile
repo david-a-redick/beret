@@ -42,7 +42,8 @@ debian-build:
 	cd .. && tar -jcf beret_1.2.2.orig.tar.bz2 beret-1.2.2
 	debuild -us -uc
 
-debian-clean:
+debian-clean: clean
+	rm -f ../beret_1.2.2*
 	rm -rf debian/.debhelper
 	rm -rf debian/beret
 
