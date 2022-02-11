@@ -889,9 +889,9 @@ int load_files() {
   }
 
   // Load fonts
-  font = TTF_OpenFont(RESOURCE_PATH "AveriaSans-Regular.ttf", 24);
-  smfont = TTF_OpenFont(RESOURCE_PATH "AveriaSans-Regular.ttf", 9);
-  medfont = TTF_OpenFont(RESOURCE_PATH "AveriaSans-Regular.ttf", 16);
+  font = TTF_OpenFont(STRINGIFY(PATH_TO_FONT), 24);
+  smfont = TTF_OpenFont(STRINGIFY(PATH_TO_FONT), 9);
+  medfont = TTF_OpenFont(STRINGIFY(PATH_TO_FONT), 16);
 
   // Load music
   for (i=0; i<MUSIC_MAX; i++) {

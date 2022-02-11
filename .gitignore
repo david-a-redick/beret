@@ -1,2 +1,6 @@
+# compile outputs
 beret
 *.o
+
+# testing with the data locally
+data
