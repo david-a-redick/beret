@@ -13,6 +13,8 @@ This is a fork of the now defunct gitorious repo.
 
 # Changes
 
+v1.2.3 - File level copyright and  license notices.
+
 v1.2.2 - General maintaince for Debian. Redick. Moved to github.com
 
 v1.2.1 - The last commited release in gitorious.
