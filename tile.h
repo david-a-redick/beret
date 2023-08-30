@@ -1,3 +1,6 @@
+// Copyright 2011 Nigel Kilmer
+// Beret is licensed under the terms of the GNU Lesser GPL v3.0
+
 enum direction {
   UP, RIGHT, DOWN, LEFT, IN, SHIFT, NONE
 };
