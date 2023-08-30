@@ -1,3 +1,6 @@
+# Copyright 2011 Nigel Kilmer
+# Beret is licensed under the terms of the GNU Lesser GPL v3.0
+
 PREFIX ?= $(HOME)/.local
 
 PATH_TO_DATA ?= $(PREFIX)/share/games/beret

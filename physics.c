@@ -1,3 +1,6 @@
+// Copyright 2011 Nigel Kilmer
+// Beret is licensed under the terms of the GNU Lesser GPL v3.0
+
 #include "SDL.h"
 #include "tile.h"
 #include "thing.h"
