@@ -1,9 +1,0 @@
-# compile outputs
-beret
-*.o
-
-# debian
-debian/beret.substvars
-
-# testing with the data locally
-data
